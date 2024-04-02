@@ -1,7 +1,9 @@
-```mermaid
-sequenceDiagram
-  participant Browser
-  participant Server 
-Browser --> Server: HTTP POST Request to /new_note
+Here is a simple flow chart:
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
