@@ -1,7 +1,7 @@
 ```mermaid
-
 sequenceDiagram
-participant Browser
-participant Server 
+  participant Browser
+  participant Server 
+Browser --> Server: HTTP POST Request to /new_note
 
 ```
